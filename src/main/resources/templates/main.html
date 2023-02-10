@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='refresh' content='5'/>
+    <title>Термометр</title>
+    <style>      body { background-color: #dfdfdf; font-family: Arial, Helvetica, Sans-Serif; Color: #777777; }
+    </style>
+</head>
+<body>
+<h1>Температура в комнате.</h1></center>
+<p th:text="${temperature}"></p></center>
+<br>
+<br>
+<div>
+    <form action="/" method="post">
+        <input type="text" name="temp">
+        <button type="submit">Submit</button>
+    </form>
+    </center>
+</div>
+</body>
+</html>
