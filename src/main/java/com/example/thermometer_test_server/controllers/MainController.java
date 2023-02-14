@@ -36,6 +36,10 @@ public class MainController {
 
         return "main";
     }
+//    @GetMapping("/change")
+//    public String changeRedirect(Model model){
+//        return "redirect:/";
+//    }
 
     @PostMapping("/")
     public String change(@RequestParam String temp, Model model) {
