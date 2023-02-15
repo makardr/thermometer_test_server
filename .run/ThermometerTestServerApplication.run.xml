@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ThermometerTestServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="thermometer_test_server" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.thermometer_test_server.ThermometerTestServerApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
