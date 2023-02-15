@@ -63,7 +63,8 @@ public class MainController {
             System.out.println("Input contains non-numeric characters");
         }
 
-
+        String data = temp + " градуса";
+        model.addAttribute("temperature", data);
         return "main";
     }
 }
